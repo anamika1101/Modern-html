@@ -1,0 +1,63 @@
+﻿MODERN HTML
+
+
+
+
+Question:1 
+Answer:-
+firstly,HTML5 is the fifth version of hyper text markup language.there are some feature like:-
+
+
+1)Multimedia Support:- it gives support to developers and allows them to embed audio and video directly into the web pages.audio and video element using <audio> and <video> tags.
+
+
+
+
+2)Geolocation API:- geo;ocation APi allows websites to request the user location.
+
+
+
+
+3)Web Sockets:- Html5 Introduced the web sockets API, enabling real time communication between the client and a server.
+
+
+
+
+4)Drag and Drop:- html5 also supports drag and drop function ,making it easier for user tasks such as file ,audio,video etc.
+
+
+
+
+5)Form Control:- html5 introduced so many improvement to forms,new input type like email,url,time,date,number and etc
+
+
+
+
+
+
+Question 2
+Answer-
+HTML entities are used in HTML to represent special characters that have a specific meaning in HTML or that cannot easily be typed directly from the keyboard. They begin with a (&) and end with a (;).some characters, like <, >, and &, have special meanings. For example, < and > are used to define tags, and & starts an entity reference.
+ 
+There are 5 commonly used html entities : -
+&nbsp;- this represents a non-breaking space
+&lt; - It represents < (less than sign)
+&gt; - It represents > (greater than sign)
+&copy; - It represents copyright symbol
+&quot ; - It represents " (double quotation mark)
+Question 3
+Answer;-
+Accessibility in web development means making sure that the websites are easy to use for people,Its important to create accessible websites because it ensures that everyone, including people with disabilities, can use the internet effectively. Accessible websites are designed to be easy to understand and navigate, using tools like screen readers or keyboards. This means that people with different abilities can access information, use online services, and participate fully in the digital world without barriers. By making websites accessible, we promote fairness and inclusion, making sure that everyone has equal opportunities online.
+By making websites accessible, we contribute to a more equitable digital environment where everyone, regardless of their physical or cognitive abilities, can participate fully in online activities, access information, and engage with services independently. 
+Accessible website help different group of people :-
+They can use tools like screen readers to hear websites content read aloud or read it in braille.
+This can navigate website using keyboards instead of  a mouse.
+Accessible website can reach more people,Including those with disabilities ,which is good for business.
+
+
+Question:- 4
+Answer:-
+Proper Heading Structure: Use heading tags (<h1> to <h6>) to create a hierarchical structure for your content. Headings should be used to outline the main sections of your webpage in a logical order. This helps screen readers users and others to navigate and understand the content more easily.
+Semantic HTML: Use semantic elements (like <nav>, <article>, <section>, <header>, <footer>, etc.) to structure the content of your webpage. Semantic HTML helps assistive technologies and search engines understand the structure and meaning of your content, enhancing accessibility.
+Alternative Text for Images: Always include descriptive alt attributes (alt="...") for images. This text is read aloud by screen readers to users who are blind or have low vision, providing them with equivalent information to understand the purpose and content of images on your website.
+Descriptive Link Text: Ensure that link text (anchor text) clearly describes the purpose or destination of the link. Avoid generic phrases like "click here" or "read more." Instead, use descriptive text that makes sense out of context and clearly indicates where the link will take the user

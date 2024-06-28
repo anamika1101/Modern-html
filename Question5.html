@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features of HTML5</title>
+</head>
+<body>
+    <header>
+        <h1><u>Features of HTML5</u></h1>
+    </header>
+
+    <article>
+        <section>
+            <h2>Semantic Elements</h2>
+            <p>HTML5 introduces new semantic elements such as &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;, and &lt;nav&gt; which provide a clearer structure to web pages, making them more accessible and SEO-friendly.</p>
+        </section>
+
+        <section>
+            <h2>Canvas and SVG</h2>
+            <p>The &lt;canvas&gt; element enables drawing graphics and animations directly within the browser using JavaScript. SVG (Scalable Vector Graphics) allows for more scalable and resolution-independent graphics.</p>
+        </section>
+
+        <section>
+            <h2>Audio and Video Support</h2>
+            <p>HTML5 includes native support for embedding audio and video content into web pages using the &lt;audio&gt; and &lt;video&gt; elements. This eliminates the need for third-party plugins like Flash.</p>
+            <H3>Audio</H3>
+            <audio controls>
+                <source src="example.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <br>
+              <h3>Video </h3>
+              <video controls width="400">
+                <source src="example.mp4" type="video/mp4">
+                Your browser does not support the video tag or the file format of this video.
+              </video>
+        </section>
+
+        <section>
+            <h2>Form Validation</h2>
+            <form action="#" method="post" id="registerForm" onsubmit="return validateForm()">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required aria-describedby="usernameError">
+                <span id="usernameError" class="error-message" aria-live="polite"></span>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-describedby="emailError">
+                <span id="emailError" class="error-message" aria-live="polite"></span>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="8" aria-describedby="passwordError">
+                <span id="passwordError" class="error-message" aria-live="polite"></span>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <br>
+    </article>
+
+    <footer>
+        <p>&copy; 2024 Anamika. All rights reserved.</p>
+    </footer>
+</body>
+</html>
